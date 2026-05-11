@@ -1,0 +1,31 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #e9ecef;
+    padding: 20px;
+}
+
+#main-wrapper {
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
+
+h1 { color: #2c3e50; border-bottom: 3px solid #007bff; padding-bottom: 10px; }
+
+.section { margin-bottom: 30px; padding: 15px; background: #f8f9fa; border-radius: 8px; }
+
+/* K-Electric Bill Styling */
+#bill-container {
+    border: 2px solid #333;
+    padding: 20px;
+    background: #fff;
+}
+
+.bill-header { font-size: 24px; font-weight: bold; margin-bottom: 20px; text-decoration: underline; }
+
+.bill-row { display: flex; justify-content: space-between; margin-bottom: 8px; font-size: 1.1rem; }
+
+.bold-text { font-weight: bold; }
